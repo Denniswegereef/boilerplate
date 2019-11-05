@@ -1,0 +1,7 @@
+{
+  "url": "http://boilerplate",
+  "html": {
+    "src": "../../_sources/html",
+    "dest": "../../public/"
+  }
+}
