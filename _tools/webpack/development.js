@@ -1,6 +1,5 @@
 const webpack = require("webpack");
 const merge = require("webpack-merge");
-const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 const common = require("./common.js");
 
@@ -23,13 +22,5 @@ module.exports = merge(common, {
       }
     ]
   },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new CopyWebpackPlugin([
-      {
-        from: "./_sources/assets/",
-        to: "assets/"
-      }
-    ])
-  ]
+  plugins: [new webpack.HotModuleReplacementPlugin()]
 });

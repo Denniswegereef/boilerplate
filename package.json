@@ -37,10 +37,6 @@
     "url": "git+https://github.com/Denniswegereef/boilerplate-static.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Denniswegereef/boilerplate-static/issues"
-  },
-  "homepage": "https://github.com/Denniswegereef/boilerplate-static#readme"
+  "author": "Dennis Wegereef",
+  "license": "MIT"
 }
